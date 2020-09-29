@@ -3,7 +3,7 @@
 
 ```bash
 // 克隆项目
-git clone https://github.com/sunniejs/vue-wechat-auth.git
+git clone https://github.com/Lisa-black/vue2-wechat-auth.git
 
 // 进入目录
 cd vue-wechat-auth
@@ -32,7 +32,7 @@ npm run serve
 
  (3) 部署auth.html(在github项目的根目录下) ，相同的，将 auth.html 上传至填写域名或路径指向的web服务器（或虚拟主机）的目录
 
- （ 例如 ：http://www.shouquan.com/auth.html），不一定是根目录(https://www.shouquan.com/xxx/auth.html   ),并确保可以访问。
+ （ 例如 ：<http://www.shouquan.com/auth.html），不一定是根目录(https://www.shouquan.com/xxx/auth.html>   ),并确保可以访问。
 
 ### 碰到问题
 
@@ -40,14 +40,14 @@ npm run serve
 
   2、hash回调url错误问题
 
-  有兴趣的朋友可以去了解，非常感谢作者  https://github.com/HADB/GetWeixinCode
+  有兴趣的朋友可以去了解，非常感谢作者  <https://github.com/HADB/GetWeixinCode>
 
-#### 设置变量  
+#### 设置变量
 
   在开发之前你要首先在下面三个文件设置两个变量，如果你已经启动项目，设置后需要重启。
-  
+
   .env.development .env.staging .env.production
-  
+
   VUE_APP_WECHAT_APPID  是你的appid
 
   VUE_APP_WECHAT_AUTH_URL ="http://www.shouquan.com/auth.html"  你的访问地址
